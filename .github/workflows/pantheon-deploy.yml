@@ -2,7 +2,7 @@ name: Pantheon Build
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   github_deploy:
