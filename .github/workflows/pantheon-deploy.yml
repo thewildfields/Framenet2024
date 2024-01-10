@@ -16,7 +16,6 @@ jobs:
       id: cache-vendor
       env:
         PANTHEONSITEUUID: d232a51c-bff3-4671-bdaa-fba529998d05
-        PANTHEONENV: dev
         PANTHEON_TERMINUS_MACHINE_TOKEN: ${{ secrets.PANTHEON_TERMINUS_MACHINE_TOKEN }}
         PANTHEON_PRIVATE_KEY: ${{ secrets.PANTHEON_PRIVATE_KEY }}
         REMOTE_PATH: "wp-content/themes/framenet"
